@@ -5,7 +5,7 @@ import { TodoList } from './components/TodoList';
 
 import { useState, useEffect } from 'react';
 function App() {
-  const [todos, setTodos] = useState([{ id: 1, title: 'Learn React', completed: false }])                
+  const [todos, setTodos] = useState([])                
   //useState is a hook that allows you to have state variables in functional components
   const [selectedTab, setSelectedTab] = useState('Active');  
   function handleAddTodo(newtodo) {
